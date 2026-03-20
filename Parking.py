@@ -1,3 +1,4 @@
+
 """
 Parqueadero: cobro por horas
 Pide cuántas horas estuvo un carro en un parqueadero.
@@ -13,4 +14,4 @@ if parking >0:
     hours_total= (parking*3000)+2000
     print(f"total to pay: {hours_total}")
 else:
-    print("ERROR:  ")    
+    print("ERROR:  ") 

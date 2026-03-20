@@ -44,4 +44,4 @@ for key, data in vehiculos["camionetas"].items():
     for tipo, info in data.items():
         #print(tipo)
         for sub_tipo, sub_info in info.items():
-            print(sub_info[1])
+            print(sub_tipo, sub_info)
